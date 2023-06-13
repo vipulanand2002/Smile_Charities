@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".activities.LoginActivity">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:drawableStart="@drawable/emailimg"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/regemail"
+            android:hint="  E - Mail"
+            android:padding="10dp"
+            android:elevation="3dp"
+            android:background="@drawable/edittextback"
+            android:layout_marginTop="10dp"
+            android:inputType="textEmailAddress"/>
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:drawableStart="@drawable/passimg"
+            android:id="@+id/regpass"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:elevation="3dp"
+            android:hint="  Password"
+            android:background="@drawable/edittextback"
+            android:inputType="textPassword"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/logsignin"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:textSize="25dp"
+            android:layout_height="wrap_content"
+            android:text="Sign In"/>
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:text="Don't Have An Account?"/>
+        <TextView
+            android:id="@+id/logsignup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:textColor="@color/teal_200"
+            android:textSize="20dp"/>
+
+
+
+    </LinearLayout>
+    <ProgressBar
+        android:layout_marginTop="40dp"
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressbar"/>
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "747890338181",
+    "project_id": "smile-charities",
+    "storage_bucket": "smile-charities.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:747890338181:android:db22661d9d43c93131bcec",
+        "android_client_info": {
+          "package_name": "com.example.smilecharities"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "747890338181-1spq6e1f0c7gus3mrjqpu8framph663e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDy9wthAySKgcOtro6oZP-huqF1etEZYVE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "747890338181-1spq6e1f0c7gus3mrjqpu8framph663e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

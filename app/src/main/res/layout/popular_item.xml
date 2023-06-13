@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="20dp">
+
+
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="6dp">
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/pop_img"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            app:riv_corner_radius="18dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/t1"/>
+
+        <TextView
+            android:id="@+id/pop_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Popular Products"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+        
+        <TextView
+            android:id="@+id/pop_des"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="Description"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:src="@drawable/search_icon"
+                android:layout_marginLeft="-5dp"/>
+            <TextView
+                android:id="@+id/pop_rating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="5.0"
+                android:layout_weight="1"/>
+            <TextView
+                android:id="@+id/pop_discount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="Discount 10 % off"
+                android:gravity="end"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
